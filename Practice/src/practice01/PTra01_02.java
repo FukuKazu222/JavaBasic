@@ -10,9 +10,9 @@ public class PTra01_02 {
 	public static void main(String[] args) {
 
 		// ★ 12～14行目をコメントにしてください。
-		ここをコメントにしてください
-		ここをコメントにしてください
-		ここをコメントにしてください
+		String greet;
+		greet = ("Hello,world");
+		System.out.println (greet);
 
 		//  ★「Hello, world」と出力（コマンドプロンプトに表示）してください
 
