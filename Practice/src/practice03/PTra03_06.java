@@ -18,13 +18,19 @@ public class PTra03_06 {
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
 		 *
-		 * ●変数randomの値から、出力する値を変更します。
+		 * ●変数radomの値から、出力する値を変更します。
 		 * ● 100~71の場合		->	「☆☆☆☆☆」
 		 * ● 70~31の場合		->	「☆☆☆☆」
 		 * ● 上記以外の場合	->	「☆☆☆」
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		if (random<=100&&random>=71) {
+			System.out.println("☆☆☆☆☆");
+		}else if(random<=70&&random>=31) {
+			System.out.println("☆☆☆☆");
+		}else {
+			System.out.println("☆☆☆");
+		}
 	}
 }
