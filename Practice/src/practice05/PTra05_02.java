@@ -11,13 +11,12 @@ public class PTra05_02 {
 		// 入力型プログラムです。
 		// 下記の命令は、入力型プログラムで必要な記述になります。
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
-
 		System.out.println("数値を入力してください");
 
 		// コマンドプロンプトで入力した値が変数lineに代入されます
 		String line = scanner.nextLine();
-
 		// ★ 変数inputを宣言して、変数lineを数値に変換した値を代入してください
+		int input = Integer.parseInt(line);
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになって良いです
 
 
@@ -29,6 +28,11 @@ public class PTra05_02 {
 		 *
 		 *  ※##は変数inputの中身
 		 */
-
+		if(input%2==0) {
+			System.out.println(input+"は偶数です");
+		}else
+		{
+			System.out.println(input+"は奇数です");
+		}
 	}
 }
