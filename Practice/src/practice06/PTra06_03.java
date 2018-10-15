@@ -19,6 +19,8 @@ public class PTra06_03 {
 		 * ■
 		 * ■
 		 */
-
+		for (int sq=0;sq<=4;sq++) {
+			System.out.println("■");
+		}
 	}
 }
