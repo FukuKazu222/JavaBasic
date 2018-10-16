@@ -10,10 +10,10 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-
+		 int recieve =number();
 
 		// ★ 変数receiveを出力してください
-
+		System.out.println(recieve);
 	}
 
 	/*
@@ -25,7 +25,7 @@ public class PTra08_01 {
 	 *
 	 * 100を返すメソッド
 	 */
-	public static int number() {
+	public static int number(){
 		return 100;
 	}
 }
