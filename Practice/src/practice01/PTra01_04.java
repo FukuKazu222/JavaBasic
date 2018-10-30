@@ -12,7 +12,7 @@ public class PTra01_04 {
 		double f;
 
 
-		f = 3.14;
+		f = 3.14;//F
 
 
 		System.out.println (f);

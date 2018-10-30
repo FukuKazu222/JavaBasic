@@ -26,7 +26,9 @@ public class Player {
 	}public void setTeam(String team){
 		this.team = team;
 	}
-	public void toString(){
-		get
+	public String toString(){
+
+
+		return position+","+name+","+country+","+team;
 	}
 }
