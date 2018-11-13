@@ -53,7 +53,7 @@ public class PTra05_03 {
 					break;
 				default:
 					System.out.println("無効票です");
-					break;
+					break;//breakいらない
 			}
 
 

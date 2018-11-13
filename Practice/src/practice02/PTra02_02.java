@@ -8,7 +8,7 @@ package practice02;
 
 public class PTra02_02 {
 	public static void main(String[] args) {
-		int num = 40;
+		int num = 40;//(10)
 		System.out.println(num);
 
 		System.out.println(num+30);

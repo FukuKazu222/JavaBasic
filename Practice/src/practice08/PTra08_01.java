@@ -10,12 +10,12 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-		 int recieve =number();
+		 int receive =number();
 
 		// ★ 変数receiveを出力してください
-		System.out.println(recieve);
+		System.out.println(receive);
 	}
-
+//receive　ミススペル厳禁
 	/*
 	 * 以下の仕様でメソッドを作成しました
 	 *

@@ -17,11 +17,11 @@ public class PTra16_03 {
 	 */
 	public  String toString () {
 		String O =toString();
-		return (O+"PTra16_03#toString()の処理");
+		return (O+"PTra16_03#toString()の処理");//このOはsuper.の記述をすれば必要ない
 	}
-	public void main(String[] args) {
+	public static void main(String[] args) {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
-		System.out.println(toString());
+		System.out.println(new practice16.PTra16_03().toString());
 	}
 }

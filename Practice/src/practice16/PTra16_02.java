@@ -27,5 +27,5 @@ public class PTra16_02 {
 		Long Lol = new Long(l);
 		Float Flew = new Float(f);
 		Double DDuck = new Double(d);
-	}
+	}//やってることが違う Boolean B = b;
 }

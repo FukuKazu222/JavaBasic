@@ -11,7 +11,7 @@ public class PTra04_02 {
 		// 通称「FizzBuzz問題」です
 		// ★ int型の変数indexを定義し、1で初期化してくださ
 		int index =0;
-		// ★ 変数indexが100以下である場合繰り返す条件式を記述してください
+		// ★ 変数indexが100以下である場合繰り返す条件式を記述してください//1で初期化してください
 		while (index<=100) {index++;
 
 			// ★ 変数indexの値が3でも5でも割り切れる数の場合は、「FizzBuzz」と出力

@@ -21,7 +21,7 @@ public class PTra02_10 {
 		 * ※ 日本円には小数点がありませんので、整数の値で出力してください(少数部分は切り捨て)
 		 * ※ プログラムは何行書いても良いです
 		 */
-		int fMIH = moneyInHand-(coffee*2+snack)*108/100;
+		int fMIH = moneyInHand-(coffee*2+snack)*108/100;//intでキャストすれば小数点を切り捨てられる
 		System.out.println(fMIH);
 	}
 }

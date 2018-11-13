@@ -37,7 +37,7 @@ public class PTra13_09 {
 
 		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
 		Employee[] emp = new Employee[3];
-		Employee employee1 = new Employee();
+		Employee employee1 = new Employee();//領域の確保は繰り返しの中で行ってしまえばいい
 		Employee employee2 = new Employee();
 		Employee employee3 = new Employee();
 		emp[0]= employee1;

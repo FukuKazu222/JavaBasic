@@ -22,7 +22,7 @@ public class PTra10_06 {
 		Car car2 = new Car();
 		Car car3 = new Car();
 		final int distance = 300;
-
+//入力してもらうプログラムなので指示と違う
 		car1.color ="white";
 		car1.gasoline =50;
 

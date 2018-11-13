@@ -16,7 +16,7 @@ public class PTra02_06 {
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
-		System.out.println("x:" + y);
+		System.out.println("x:" + y);//int z= int x
 		System.out.println("y:" + x);
 
 		// ここから下は修正しないでください

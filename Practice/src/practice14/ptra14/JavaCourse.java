@@ -2,7 +2,7 @@ package practice14.ptra14;
 
 public class JavaCourse implements practice14.common.Course{
 	public String getCourseName(){
-		return (practice14.common.Course.PREFIX+"java");
+		return practice14.common.Course.PREFIX+"java";
 	}
 	public String[] getCourseUnit() {
 		getCourseUnit()[0] =("式と演算");
@@ -13,5 +13,5 @@ public class JavaCourse implements practice14.common.Course{
 		getCourseUnit()[5] =("継承");
 		getCourseUnit()[6] =("高度な継承");
 		return getCourseUnit();
-	}
+	}//簡略化return new String[,,,,]
 }

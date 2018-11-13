@@ -17,6 +17,6 @@ public class PTra02_01 {
 
 		int e = 97%6;
 		System.out.print(e);
-
+//変数を宣言する必要はない
 	}
 }

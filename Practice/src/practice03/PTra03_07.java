@@ -48,7 +48,7 @@ public class PTra03_07 {
 		 break;
 		default:
 			System.out.println("選択したのは,1～5以外です");
-
+			//長ったらしいのでわざわざswitch使わないこと
 		}
 	}
 }

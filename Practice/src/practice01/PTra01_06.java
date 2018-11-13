@@ -12,7 +12,7 @@ public class PTra01_06 {
 		String str;
 
 
-		str = ("一志");
+		str = "一志";
 
 
 		System.out.println(str);

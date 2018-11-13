@@ -47,21 +47,52 @@ public class PTra18_04 {
 			System.out.println("ファイルが見つかりません");
 		}
 		// ★ ①のArrayListの中からGK1名、DF4名、MF4名, FW2名をランダムで出力してください
-		int u = 0;
+		int GKu = 0;
+		int DFu = 0;
+		int MFu = 0;
+		int FWu = 0;
 		Collections.shuffle(array);
-		for(int i=0;i<array.size();i++){
 
-			if(array.get(i).getPosition().equals("GK")&&u==0) {
-				u++;
-				System.out.println(array.get(i).toString());
+			for (Player player : array){
+			switch(player.getPosition()) {
+		case"GK":
+				if(player.getPosition().equals("GK")&&GKu==0) {
+					GKu++;
+					System.out.println(player.toString());
+					break;
+				}else if(GKu==1){
+					break;
+				}
+		case"DF":
+			if(player.getPosition().equals("DF")&&DFu<4) {
+				GKu++;
+				System.out.println(player.toString());
 				continue;
-			}else if(array.get(i).getPosition().equals("GK")&&u==1){
-				System.out.println(array.get(i).toString());
+			}else if(DFu==4){
+				System.out.println(player.toString());
 				break;
-		}else {
-			continue;
-		}
-		}
+			}
+		case"MF":
+			if(player.getPosition().equals("MF")&&MFu<4) {
+				GKu++;
+				System.out.println(player.toString());
+				continue;
+			}else if(MFu==4){
+				System.out.println(player.toString());
+				break;
+			}
+		case"FW":
+			if(player.getPosition().equals("FW")&&FWu<2) {
+				FWu++;
+				System.out.println(player.toString());
+				continue;
+			}else if(FWu==2){
+				System.out.println(player.toString());
+				break;
+			}
+			break;
+		}//やり方がややこし過ぎるので模範解答を読み解く
+		}//間違ったプログラム
 	}
 }
 

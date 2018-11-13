@@ -46,8 +46,8 @@ public class PTra03_08 {
 			break;
 		case 3:
 			num=money-200;
-			System.out.println(num+"円");
+			System.out.println(num+"円");//break;ではだめ
 			break;
 		}
-	}
+	}	
 }

@@ -65,7 +65,8 @@ public class PTra04_05 {
 				System.out.println("パー！！");
 				if (myHand != 1) {
 					continue;
-				}else {
+				}//ここにelse ifで不正な値の入力時に行う処理を指定する
+				else {
 					break;
 				}
 

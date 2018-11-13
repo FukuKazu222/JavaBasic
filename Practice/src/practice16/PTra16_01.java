@@ -13,6 +13,6 @@ public class PTra16_01 {
     	Date date = new Date();
     	SimpleDateFormat D = new SimpleDateFormat("yyyy年MM月dd日");
     	String dateS = D.format(date);
-    	System.out.println(dateS);
+    	System.out.println(dateS);//dateS必要ないじゃん
     }
 }
